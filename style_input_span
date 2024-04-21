@@ -1,0 +1,52 @@
+
+input {
+  display			: inline-block; 
+  text-align		: right;
+  line-height 			: 1.5em;	
+  vertical-align	: middle;
+  padding-right   : 5px;
+  margin-left : 5px;
+  margin-right : 5px;    
+  margin-top : 0px;      
+  margin-bottom : 0px;        
+}
+
+input.number{
+    width           : 80px;
+}
+
+span {
+  height 			: 2.0em;	
+  line-height	: 2.0em;	
+  display			:	inline-block; 
+  vertical-align	:	middle;
+  font-size : 1.0em;
+  margin : 5px;
+}
+
+span.answer{ 
+	width           : 100px; 
+	text-align		: right;	
+	border			: 1px solid black;
+	border-top		: none;
+	border-left		: none;
+	border-right	: none;
+}
+
+span.short{
+  width       : 200px; 
+	text-align  : center;	
+}
+span.short_r{
+  width       : 200px; 
+	text-align  : right;	
+}
+span.middle{
+  width       : 250px; 
+}
+span.long{
+  width       : 400px; 
+}
+span.unit{
+  width       : 20px; 
+}
