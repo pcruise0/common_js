@@ -1,0 +1,100 @@
+
+/*STYLES FOR TABLE*/
+/*
+---------------------------------------
+	TABLE FORMAT
+---------------------------------------
+*/  
+
+table {
+	margin				: 0;
+	border-collapse		: collapse;
+	text-align			: left;
+	font-size			: 0.9em;
+	width				: 1200px;
+	table-layout		: fixed;
+	word-wrap			: break-word;
+	display: table-cell;
+	
+/*
+	display				: inline-block;
+    font-family 		: Arial, '새굴림', sanserif;
+	border-top			: 1px solid dimgrey;
+	border-bottom		: 1px solid dimgrey;
+*/	
+}
+
+
+table tr { 
+/*	
+*/
+height 					: 2.0em;
+}
+
+/* header 
+
+table thead th {position: sticky; top: 0; }    	
+    transform: translate(1px, 0);	
+*/
+table thead tr:first-child {
+	border-top			: 1px solid black;
+}
+
+table thead tr:last-child {
+	border-bottom		: 1px solid black;
+}
+
+
+table tr th { 
+	font-weight : normal;
+	text-align: center;
+	color		: rgb(255,255,255);
+	background: darkgrey;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+
+}
+
+table tr th:first-child {
+	border-left: none;
+}
+table tr th:last-child {
+	border-right: none;
+}
+
+/* body */
+
+table tr:nth-child(even) td {
+	background: rgb(230,230,230);
+}
+
+table tr:nth-child(odd) td {
+	background: rgb(255,255,255);
+}
+
+table tr td {
+	border: 1px solid black;
+	text-align : center;
+	vertical-align : middle;
+	line-height : 100%;
+}
+
+table tr td:first-child {
+	border-left: none;
+}
+table tr td:last-child {
+	border-right: none;
+}
+/*
+table tr>th:first-child,tr>td:first-child {
+  position: sticky;
+  left: 0;
+}
+table tr>th:second-child,tr>td:second-child {
+  position: sticky;
+  left: 200;
+}
+
+*/
+
+
