@@ -1,4 +1,46 @@
 
+/* Grey Button */
+.btn_grey{
+ height	: 2.5em;	
+ line-height	: 2.0em;	
+ width			: 8em;
+ font-size		: 0.8em;
+ font-family	: Arial, verdana, helvetica, sans-serif, arial, verdana; 
+ font-weight	: normal; 
+ display		: inline-block;
+ vertical-align	: middle;	
+ text-align		: center;
+ /*
+ height			: 2.0em;
+ padding-top 	: 0px;
+ padding-bottom : 20px;
+ margin: 0px 0px 10px 0px;  
+ */
+ border:1px solid #b7b7b7; 
+ -webkit-border-radius: 2px; 
+ -moz-border-radius: 2px;
+ border-radius: 2px;
+ text-decoration:none; 
+ text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+ color: #FFFFFF;
+ background-color: #d3d3d3; background-image: -webkit-gradient(linear, left top, left bottom, from(#d3d3d3), to(#707070));
+ background-image: -webkit-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -moz-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -ms-linear-gradient(top, #d3d3d3, #707070);
+ background-image: -o-linear-gradient(top, #d3d3d3, #707070);
+ background-image: linear-gradient(to bottom, #d3d3d3, #707070);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d3d3d3, endColorstr=#707070);
+}
+
+.btn_grey:hover{
+ border:1px solid #a0a0a0;
+ background-color: #bababa; background-image: -webkit-gradient(linear, left top, left bottom, from(#bababa), to(#575757));
+ background-image: -webkit-linear-gradient(top, #bababa, #575757);
+ background-image: -moz-linear-gradient(top, #bababa, #575757);
+ background-image: -ms-linear-gradient(top, #bababa, #575757);
+ background-image: -o-linear-gradient(top, #bababa, #575757);
+ background-image: linear-gradient(to bottom, #bababa, #575757);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#bababa, endColorstr=#575757);
+}
+
 input {
   display			: inline-block; 
   text-align		: right;
@@ -10,6 +52,7 @@ input {
   margin-top : 0px;      
   margin-bottom : 0px;        
 }
+/* End of Grey Button */
 
 input.number{
     width           : 80px;
